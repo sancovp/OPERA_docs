@@ -2,9 +2,9 @@
 
 Read them in an order like this: 
 
-Intro OPERA\n
-OPERA_xpol\n
-Intro_xpol\n
-ToOT\n
-ToOT_prompts\n
-example_query\n
+Intro OPERA,
+OPERA_xpol,
+Intro_xpol,
+ToOT,
+ToOT_prompts,
+example_query
