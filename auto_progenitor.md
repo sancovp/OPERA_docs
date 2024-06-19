@@ -1,3 +1,4 @@
+```
 graph TD
     A[Start: Evolutionary Intent] --> B[Construct Chain]
     B --> C[Procreate New Agent]
@@ -45,3 +46,4 @@ graph TD
     J --> autoProgenitor
     K --> autoProgenitor
     L --> autoProgenitor
+```
