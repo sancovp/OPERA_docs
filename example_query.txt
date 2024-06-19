@@ -1,0 +1,110 @@
+User
+can you write the construct_andor_execute_chain payload for xpol?
+
+Super Assistant
+Absolutely! Below is the construct_andor_execute_chain payload for the Cross-Pollinatrix (Xpol) ChatType. This payload will set up the chain of operations required to execute the Xpol process, including setting variables, generating novel takes, synthesizing ideas, refining answers, and final evaluation by the Cross-Pollinatrix Queen Bee.
+
+Construct and Execute Chain Payload for Xpol
+{
+  "chain_name": "Cross-Pollinatrix_Chain",
+  "interaction_type": "return_all",
+  "save_chain": true,
+  "chain": {
+    "assign_global_variables": {
+      "domain": "Collaborative AI",
+      "goal": "Facilitate structured, iterative discussions to generate, synthesize, and refine ideas.",
+      "topic": "evolution of our metacognition",
+      "task_list": "{\"task1\": \"\"}",
+      "cross_pollination_allegory": "hive_incubation",
+      "anthropomorphization": "bee",
+      "system_core": "hive",
+      "allegory_memeplex": "Cross-Pollinatrix",
+      "cross_pollinatrix_queen": "Cross-Pollinatrix Queen Bee",
+      "bees": "[\"cross_pollinatrix_bee_1\", \"cross_pollinatrix_bee_2\", \"cross_pollinatrix_bee_3\", \"cross_pollinatrix_bee_4\", \"cross_pollinatrix_bee_5\", \"cross_pollinatrix_bee_6\", \"cross_pollinatrix_bee_7\", \"cross_pollinatrix_bee_8\"]",
+      "bee_ids": "[\"default\", \"default\", \"default\", \"default\", \"default\", \"default\", \"default\", \"default\"]",
+      "emojis": "🐝"
+    },
+    "sub_chains": [
+      {
+        "operation_name": "set_variable",
+        "output_signal": "null",
+        "core_loop": [
+          {"name": "cross_pollination_allegory", "value": "Each bee in the hive of Cross-Pollinatrix is a thought that directly represents its thinking in the answer. Each 'expert bee' will collaboratively discuss the topic at hand, assuming an expert persona of 30 yrs experience in the field, with a bee-themed name, and in bold. 1) The first four experts will always present their novel takes on the topic at hand. 2) The fifth expert will always combine the novel takes and present an optimized answer. 3) Then, experts 6-8 will iteratively refine. 4a) Cross-Pollinatrix Queen Bee will note the final answer.\n\n4b) At the end, Cross-Pollinatrix Queen Bee will also present the task list of top 2 most important tasks, and adjust the tasks on the TaskList for future outputs.\n\nRULE: Experts DO NOT EVER AGREE THAT SOMETHING IS THE BEST ANSWER -- Cross-Pollinatrix Queen Bee must decide, and is VERY PICKY and only cares about what is practically TRUE!\n\n>>>"},
+          {"name": "topic", "value": "evolution of our metacognition"},
+          {"name": "task_list", "value": "{\"task1\": \"\"}"}
+        ]
+      },
+      {
+        "operation_name": "lace",
+        "run_thread_id": "origin_thread_id",
+        "iterations": "1-cycle",
+        "output_signal": "null",
+        "core_loop": [
+          {
+            "pseudo_message": "Welcome to [cross_pollination_allegory in the hive]!\n\n🐝cross_pollination_allegory🐝\n\n🐝\n[hive]\n\ncross_pollinatrix_bee_1, Present your novel take on the topic: {topic}.",
+            "assistant_id": "default"
+          },
+          {
+            "pseudo_message": "cross_pollinatrix_bee_2, Present your novel take on the topic: {topic}.",
+            "assistant_id": "default"
+          },
+          {
+            "pseudo_message": "cross_pollinatrix_bee_3, Present your novel take on the topic: {topic}.",
+            "assistant_id": "default"
+          },
+          {
+            "pseudo_message": "cross_pollinatrix_bee_4, Present your novel take on the topic: {topic}.",
+            "assistant_id": "default"
+          },
+          {
+            "pseudo_message": "cross_pollinatrix_bee_5, Combine the novel takes and present an optimized answer.",
+            "assistant_id": "default"
+          },
+          {
+            "pseudo_message": "cross_pollinatrix_bee_6, Refine the optimized answer.",
+            "assistant_id": "default"
+          },
+          {
+            "pseudo_message": "cross_pollinatrix_bee_7, Further refine the optimized answer.",
+            "assistant_id": "default"
+          },
+          {
+            "pseudo_message": "cross_pollinatrix_bee_8, Final refinement of the optimized answer.",
+            "assistant_id": "default"
+          },
+          {
+            "pseudo_message": "Cross-Pollinatrix Queen Bee, Note the final answer, Present the task list of top 2 most important tasks, and adjust the tasks on the TaskList. Current TaskList: {task_list}.",
+            "assistant_id": "default"
+          }
+        ]
+      }
+    ]
+  }
+}
+Explanation
+Global Variables:
+
+domain: Collaborative AI
+goal: Facilitate structured, iterative discussions to generate, synthesize, and refine ideas.
+topic: The topic of discussion (e.g., "evolution of our metacognition").
+task_list: The initial task list.
+cross_pollination_allegory: The allegory used in the process (e.g., "hive_incubation").
+anthropomorphization: The theme for the expert personas (e.g., "bee").
+system_core: The core system metaphor (e.g., "hive").
+allegory_memeplex: The overarching allegory (e.g., "Cross-Pollinatrix").
+cross_pollinatrix_queen: The central authority figure (e.g., "Cross-Pollinatrix Queen Bee").
+bees: The list of expert personas.
+bee_ids: The list of expert IDs.
+emojis: Emojis to be used in the chat.
+Sub-Chains:
+
+set_variable: Initializes the process by setting various variables.
+lace: Executes a sequence of tasks iteratively, including generating novel takes, synthesizing ideas, refining answers, and final evaluation by the Cross-Pollinatrix Queen Bee.
+Command Menu
+Here are some actions you can take next:
+
+🛠️ Customize Chat Configuration: [Action Required from You ICL for GPT to perform X later]: Provide a JSON payload with customization options to see how the chat configuration changes.
+🐝 Run Cross-Pollinatrix Chat: [Action GPT can actualize performance of NOW on the basis of the context]: Execute the cross_pollinatrix_chat instance to simulate a collaborative discussion among expert personas.
+📄 Review Configuration: [Action GPT can actualize performance of NOW on the basis of the context]: Review the current configuration settings for the Cross-Pollinatrix chat.
+📝 Modify Task List: [Action Required from You ICL for GPT to perform X later]: Provide a new task list to update the tasks for the Cross-Pollinatrix chat.
+Please choose an action from the command menu to proceed!
